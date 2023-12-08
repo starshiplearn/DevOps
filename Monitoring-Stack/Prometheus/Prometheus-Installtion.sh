@@ -103,4 +103,6 @@ systemctl enable prometheus
 sleep 5
 systemctl status prometheus
 
+prometheus --version
+
 #==========================================================================================
