@@ -18,6 +18,12 @@ services:
     ports:
       - 9090:9090
     restart: unless-stopped
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+    external: false
 
 volumes:
   prometheus_config:

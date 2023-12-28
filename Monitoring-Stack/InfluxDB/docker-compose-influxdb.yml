@@ -11,6 +11,13 @@ services:
     ports:
       - 8086:8086
     restart: unless-stopped
+    networks:
+      - monitoring
+
+networks:
+  monitoring:
+    external: false
+
 volumes:
   influxdb_data:
   influxdb_config:
