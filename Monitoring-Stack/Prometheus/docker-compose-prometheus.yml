@@ -23,7 +23,7 @@ services:
 
 networks:
   monitoring:
-    external: false
+    external: true
 
 volumes:
   prometheus_config:

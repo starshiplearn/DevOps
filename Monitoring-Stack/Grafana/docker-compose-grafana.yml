@@ -17,7 +17,7 @@ services:
 
 networks:
   monitoring:
-    external: false
+    external: true
 
 volumes:
   grafana_data:

@@ -16,7 +16,7 @@ services:
 
 networks:
   monitoring:
-    external: false
+    external: true
 
 volumes:
   influxdb_data:
