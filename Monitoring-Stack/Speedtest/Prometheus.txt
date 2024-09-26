@@ -1,5 +1,5 @@
 #For SpeedTest Exporter
-  - job_name: speedtest-exporter-1
+  - job_name: speedtest-exporter
     scrape_interval: 180m
     scrape_timeout: 1m
     static_configs:
