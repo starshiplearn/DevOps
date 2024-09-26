@@ -1,0 +1,10 @@
+version: "3"
+services:
+  speedtest:
+    container_name: speedtest_exporter
+    hostname: speedtest_exporter
+    restart: unless-stopped
+    image:  ghcr.io/danopstech/speedtest_exporter:v0.0.5
+    ports:
+      - 9080:9090
+

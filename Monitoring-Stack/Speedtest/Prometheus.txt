@@ -1,0 +1,8 @@
+#For SpeedTest Exporter
+  - job_name: speedtest-exporter-1
+    scrape_interval: 180m
+    scrape_timeout: 1m
+    static_configs:
+      - targets:
+        - 127.0.0.1:9080
+    metrics_path: /metrics
